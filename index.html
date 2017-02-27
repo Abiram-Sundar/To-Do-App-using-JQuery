@@ -1,0 +1,93 @@
+<!DoCTYPE html>
+<html>
+
+<head>
+	<title>jQuery practice</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style type="text/css">
+
+		body{
+	    font-family: Verdana, Arial, Sans-Serif;
+	    background-color:#333;
+	    color:#f7f7f7;
+	    padding-left: 30px;
+		}
+
+		body h2, p{
+		    text-align:center;
+		}
+
+		form{
+		    padding-left:25px;
+		    display: inline-block;
+		}
+
+		input{
+		    border-radius:2px;
+		    border:none;
+		}
+
+		button{
+		    border:none;
+		    color:#333;
+		}
+
+		#dlt{
+		    color: #fff;
+			opacity: 0.5;
+			cursor: pointer;
+			transition-duration:0.5s;
+		}
+
+		#dlt:hover{
+			opacity: 0.8;
+		}
+
+		ol li {
+		    display:inline;
+		    background:#222;
+			margin: 3px;
+			padding: 0.4em 0.4em 0.4em 0.4em;
+			font-size: 1em;
+			border-radius:5px;
+			border:1px solid #111;
+			transition:0.5s;
+		}
+
+		li:hover{
+		    border-color:#ffff94;
+		}
+	</style>
+</head>
+
+<body>
+	<h2>To Do list</h2>
+	<p> A simple To Do list.</p>
+
+	<h4> Features:</h4>
+	<ul>
+		<li>Delete unwanted items.</li>
+		<li>Sort items up on priority.</li>
+	</ul>
+	<form>
+	<input type="text" name="message" value=""/>
+	</form>
+	<button id="btn">Add</button>
+    <br /><br />
+    <ol id="list">
+    </ol>
+
+
+
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script>
+	window.jQuery || document.write("<script src='jquery-3.1.1.js'><\/script>");
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+</body>
+</html>
+
+
